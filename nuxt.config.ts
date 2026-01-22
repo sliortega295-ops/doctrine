@@ -2,9 +2,7 @@
 export default defineNuxtConfig({
   app: {
     // baseURL: '/',
-    // baseURL: '/knots-gh/',
-    // baseURL: '/knots-web/',
-    baseURL: '/doctrine/',
+    // baseURL: '/doctrine/',
     // buildAssetsDir: '/build/'
   },
   modules: [
@@ -40,6 +38,8 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-07-11',
 
   nitro: {
+    preset: 'static',
+    serveStatic: true,
     prerender: {
       routes: [
         '/'
@@ -48,6 +48,8 @@ export default defineNuxtConfig({
       autoSubfolderIndex: false
     }
   },
+
+  ssr: true,
 
   eslint: {
     config: {
@@ -59,7 +61,11 @@ export default defineNuxtConfig({
   },
 
   icon: {
-    provider: 'iconify'
+    provider: 'iconify',
+    customCollections: [{
+      prefix: 'local',
+      dir: './app/assets/icons'
+    }]
   },
 
   llms: {

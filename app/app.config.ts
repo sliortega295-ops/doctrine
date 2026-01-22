@@ -1,13 +1,48 @@
 export default defineAppConfig({
+  title: 'The Free Mavens',
+  vweb: '0.1.1',
+  vapp: '29.2',
+  url: {
+    // discord: 'https://discord.gg/3Ccegp9YrU',
+    github: 'https://github.com/thefreemavens',
+    telegram: 'https://t.me/thefreemavens',
+    x: 'https://x.com/thefreemavens',
+  },
   ui: {
     colors: {
-      primary: 'green',
-      neutral: 'slate'
+      primary: 'brand',
+      neutral: 'earth'
     },
     footer: {
       slots: {
         root: 'border-t border-default',
         left: 'text-sm text-muted'
+      }
+    },
+    page: {
+      slots: {
+        root: 'xl:gap-16',
+      },
+    },
+    pageCard: {
+      slots: {
+        container: 'grid',
+        leadingIcon: 'size-8'
+      }
+    },
+    pageHero: {
+      slots: {
+        header: 'font-display'
+      }
+    },
+    pageFeature: {
+      slots: {
+        leadingIcon: 'size-10'
+      },
+    },
+    pageSection: {
+      slots: {
+        title: 'font-display',
       }
     }
   },

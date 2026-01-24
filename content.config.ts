@@ -6,7 +6,7 @@ export default defineContentConfig({
       type: 'page',
       source: 'index.md'
     }),
-    docs: defineCollection({
+    doctrine: defineCollection({
       type: 'page',
       source: {
         include: '**',

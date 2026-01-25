@@ -1,7 +1,7 @@
 ---
 seo:
-  title: Nuxt Docs Template
-  description: Create stunning, fast and SEO-optimized documentation sites with The Freemavens.
+  title: The Open Doctrine of Natural Law
+  description: The immutable body of Natural Law knowledge made permanently and freely accessible to all.
 ---
 
 ::u-page-hero{class="--dark:bg-gradient-to-b --from-neutral-900 --to-neutral-950 relative"}

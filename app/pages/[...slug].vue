@@ -28,7 +28,14 @@ useSeoMeta({
   title,
   ogTitle: title,
   description,
-  ogDescription: description
+  ogDescription: description,
+  // ogImage: '/img/content/yt-poster.png',
+  // twitterImage: '/img/content/yt-poster.png',
+  ogImage: '/img/assets/tfm-doctrine-home-screenshot-light.png',
+  twitterImage: '/img/assets/tfm-doctrine-home-screenshot-light.png',
+  ogUrl: 'https://doctrine.thefreemavens.org/',
+  twitterTitle: title,
+  twitterDescription: description
 })
 
 const headline = computed(() => findPageHeadline(navigation?.value, page.value?.path))

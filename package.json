@@ -12,8 +12,6 @@
   },
   "dependencies": {
     "@iconify-json/local": "^1.2.82",
-    "@iconify-json/simple-icons": "^1.2.63",
-    "@iconify-json/vscode-icons": "^1.2.37",
     "@nuxt/content": "^3.9.0",
     "@nuxt/image": "^2.0.0",
     "@nuxt/scripts": "^0.13.2",

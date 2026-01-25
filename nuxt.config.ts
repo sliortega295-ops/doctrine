@@ -43,6 +43,16 @@ export default defineNuxtConfig({
       }
     }
   },
+
+  // hooks: {
+  //   "vite:extendConfig"(config, { isClient })  {
+  //     if (isClient) {
+  //       config.build.rollupOptions.output.manualChunks = function (_id) {
+  //         return 'index';
+  //       }
+  //     }
+  //   }
+  // },
   
   icon: {
     provider: 'iconify',

@@ -15,24 +15,12 @@ useSeoMeta({
   ogTitle: title,
   description,
   ogDescription: description,
-  ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/docs-light.png',
-  twitterImage: 'https://ui.nuxt.com/assets/templates/nuxt/docs-light.png'
+  ogImage: '/img/assets/tfm-doctrine-home-screenshot-light.png',
+  twitterImage: '/img/assets/tfm-doctrine-home-screenshot-light.png',
+  ogUrl: 'https://doctrine.thefreemavens.org/',
+  twitterTitle: title,
+  twitterDescription: description
 })
-
-const links = ref<ButtonProps[]>([
-  {
-    label: 'Read the Doctrine',
-    to: '/getting-started',
-    icon: 'i-local-arrow-right'
-  },
-  {
-    label: 'View Contribution Guide',
-    to: '/getting-started/usage',
-    color: 'neutral',
-    variant: 'subtle',
-    icon: 'i-simple-icons-github'
-  }
-])
 
 const ctaLearn = ref<ButtonProps[]>([
   {
@@ -75,35 +63,7 @@ const ctaJoin = ref<ButtonProps[]>([
     <!-- HERO -->
     <!-- HERO -->
     <!-- HERO -->
-    <UPageHero
-      :links="links"
-      class="relative"
-      orientation="horizontal"
-    >
-      <template #title>
-        <h1>
-          The <span class="text-primary">Doctrine</span> is Open.
-        </h1>
-      </template>
-
-      <template #description>
-        <p>The complete, structured, and immutable body of Natural Law knowledge. Learn, translate, and contribute to the source code of sovereignty.</p>
-      </template>
-
-      <template #top>
-        <HeroBackground class="-z-50" />
-      </template>
-
-      <NuxtLink to="/getting-started">
-        <UPageCard
-          class="size-64 sm:size-72 md:size-80 lg:size-96 xl:size-112 aspect-square mx-auto rounded-2xl p-8 group relative"
-          variant="ghost"
-          spotlight
-        >
-          <AppSeed class="mx-auto group-hover:stroke-12 transition-all duration-6666 ease-out group-hover:duration-2000 text-primary group-hover:text-primary" />
-        </UPageCard>
-      </NuxtLink>
-    </UPageHero>
+    <AppHero />
 
     <!-- LEARN -->
     <!-- LEARN -->
@@ -243,7 +203,7 @@ const ctaJoin = ref<ButtonProps[]>([
   </div>
 </template>
 
-<style lang="css" scoped>
+<!-- <style lang="css" scoped>
 @keyframes solSeed {
   from {
     transform: translateY(300px);
@@ -273,4 +233,4 @@ const ctaJoin = ref<ButtonProps[]>([
 .animateSolSeedReverse {
   animation: solSeedReverse 16.2s ease-in-out infinite alternate;
 }
-</style>
+</style> -->

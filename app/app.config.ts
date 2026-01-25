@@ -78,7 +78,7 @@ export default defineAppConfig({
     search: true,
     colorMode: true,
     links: [{
-      'icon': 'i-simple-icons-github',
+      'icon': 'i-local-github',
       'to': 'https://github.com/thefreemavens/doctrine',
       'target': '_blank',
       'aria-label': 'GitHub'
@@ -90,7 +90,7 @@ export default defineAppConfig({
     links: [
       {
         'icon': 'i-local-x',
-        'to': 'https://go.nuxt.com/x',
+        'to': 'https://x.com/thefreemavens',
         'target': '_blank',
         'aria-label': 'The Freemavens on X'
       },
@@ -108,7 +108,7 @@ export default defineAppConfig({
       },
       {
         'icon': 'i-local-github',
-        'to': 'https://github.com/nuxt/ui',
+        'to': 'https://github.com/thefreemavens/doctrine',
         'target': '_blank',
         'aria-label': 'The Freemavens on GitHub'
       }

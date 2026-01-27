@@ -46,7 +46,7 @@ function stateChange(event: { data: number }) {
   isPlaying.value = event.data === 1
 }
 
-const defaultPoster = '/img/content/yt-poster.png'
+const defaultPoster = '../../img/content/yt-poster.png'
 </script>
 
 <template>

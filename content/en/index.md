@@ -50,7 +50,6 @@ Science of Natural Law
   :::u-page-feature
   ---
   icon: i-simple-icons-nuxt
-  to: https://nuxt.com
   orientation: vertical
   ---
   #title
@@ -63,8 +62,7 @@ Science of Natural Law
   :::u-page-feature
   ---
   icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://ui.nuxt.com/
+  orientation: vertical
   ---
   #title
   Powered by [Nuxt UI]{.text-primary}
@@ -76,8 +74,7 @@ Science of Natural Law
   :::u-page-feature
   ---
   icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://content.nuxt.com
+  orientation: vertical
   ---
   #title
   Enhanced Markdown syntax by [Nuxt Content]{.text-primary}
@@ -89,8 +86,7 @@ Science of Natural Law
   :::u-page-feature
   ---
   icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://nuxt.com/docs/guide/directory-structure/app-config
+  orientation: vertical
   ---
   #title
   Customize with [Nuxt App Config]{.text-primary}
@@ -102,8 +98,7 @@ Science of Natural Law
   :::u-page-feature
   ---
   icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://content.nuxt.com/studio
+  orientation: vertical
   ---
   #title
   Edit in production with [Nuxt Studio]{.text-primary}
@@ -115,8 +110,7 @@ Science of Natural Law
   :::u-page-feature
   ---
   icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://ui.nuxt.com/components/content-search
+  orientation: vertical
   ---
   #title
   Built-in navigation and [full-text search]{.text-primary}

@@ -56,7 +56,7 @@ export default defineAppConfig({
     },
     contentSearchButton: {
       slots: {
-        base: 'bg-neutral-200 dark:bg-neutral-700',
+        base: 'bg-neutral-200/80 dark:bg-neutral-700/90',
       },
     }
   }

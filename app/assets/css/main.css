@@ -57,14 +57,14 @@
   --ui-container: var(--container-8xl);
 
   --ui-primary: var(--ui-color-primary-600);
-  --ui-secondary: var(--color-tropical-mint);
+  /* --ui-secondary: var(--color-tropical-mint); */
   /* --ui-success: var(--ui-color-success-500); */
   /* --ui-info: var(--ui-color-info-500); */
   /* --ui-warning: var(--ui-color-warning-500); */
   /* --ui-error: var(--ui-color-error-500); */
 
-  --ui-bg: var(--ui-color-neutral-100);
-  --ui-bg-muted: var(--ui-color-neutral-100);
+  --ui-bg: var(--ui-color-neutral-50);
+  /* --ui-bg-muted: var(--ui-color-neutral-100); */
   /* --ui-bg-elevated: var(--ui-color-neutral-100); */
   /* --ui-bg-accented: var(--ui-color-neutral-200); */
   /* --ui-bg-inverted: var(--ui-color-neutral-900); */
@@ -80,15 +80,15 @@
 .dark {
   --ui-border: var(--color-neutral-700);
   --border-DEFAULT: var(--color-neutral-700);
-  --ui-primary: var(--ui-color-primary-500);
-  --ui-secondary: var(--color-tropical-mint);
+  /* --ui-primary: var(--ui-color-primary-500); */
+  /* --ui-secondary: var(--color-tropical-mint); */
   /* --ui-secondary: var(--ui-color-secondary-500); */
   /* --ui-success: var(--ui-color-success-500); */
   /* --ui-info: var(--ui-color-info-500); */
   /* --ui-warning: var(--ui-color-warning-500); */
   /* --ui-error: var(--ui-color-error-500); */
 
-  --ui-bg: var(--ui-color-neutral-900);
+  --ui-bg: var(--ui-color-neutral-800);
   --ui-bg-muted: var(--ui-color-neutral-950);
   /* --ui-bg-elevated: var(--ui-color-neutral-800); */
   /* --ui-bg-accented: var(--ui-color-neutral-700); */

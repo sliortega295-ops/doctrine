@@ -53,6 +53,11 @@ export default defineAppConfig({
     colors: {
       primary: 'brand',
       neutral: 'earth'
+    },
+    contentSearchButton: {
+      slots: {
+        base: 'bg-neutral-200 dark:bg-neutral-700',
+      },
     }
   }
 })

@@ -13,7 +13,7 @@ const isLight = computed({
 
 <template>
   <ClientOnly>
-    <div class="flex-1 flex items-center justify-center">
+    <div class="mx-auto flex flex-1">
       <USwitch
         v-model="isLight"
         unchecked-icon="i-lucide-moon"

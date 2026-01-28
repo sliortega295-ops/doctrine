@@ -10,15 +10,18 @@ export default defineNuxtConfig({
       code: 'en',
       name: 'English',
       dir: 'ltr'
-    }, {
-      code: 'fr',
-      name: 'Français',
-      dir: 'ltr'
-    }, {
-      code: 'he',
-      name: 'עברית',
-      dir: 'rtl'
-    }],
+    }
+    // {
+    //   code: 'fr',
+    //   name: 'Français',
+    //   dir: 'ltr'
+    // },
+    // {
+    //   code: 'he',
+    //   name: 'עברית',
+    //   dir: 'rtl'
+    // }
+    ],
   },
 
   icon: {
@@ -55,7 +58,7 @@ export default defineNuxtConfig({
     // ]
   },
 
-  mcp: { enabled: false },
+  // mcp: { enabled: false },
   
   modules: ['@nuxt/ui', '@nuxtjs/i18n', '@nuxt/scripts'],
   

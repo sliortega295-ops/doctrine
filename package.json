@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "nuxt dev --extends docus",
     "build": "nuxt build --extends docus",
-    "generate": "NUXT_APP_BASE_URL=/ nuxt build --prerender --extends docus"
+    "generate": "nuxt build --prerender --extends docus"
   },
   "dependencies": {
     "@nuxt/scripts": "^0.13.2",

@@ -1,14 +1,25 @@
 <template>
-  <div class="flex h-24 border border-default/40 dark:border-default items-center justify-between gap-8 mx-auto px-8 py-0 bg-neutral-50/50 dark:bg-neutral-700/50 rounded-3xl shadow-lg/10 text-default/60">
-    <div v-for="principle in principles" class="flex size-10 cursor-pointer bg-neutral-500/10 dark:bg-neutral-500/20 justify-center items-center rounded-xl">
-    <UTooltip :delay-duration="0" :text="principle.title" :content="{
-      align: 'center',
-      side: 'bottom',
-      sideOffset: 8
-    }">
-      <UIcon :name="'i-local-picon-' + principle.slug" class="size-6 px-4" />
-    </UTooltip>
-  </div>
+  <div class="flex h-24 border border-default/40 dark:border-default items-center justify-between gap-8 mx-auto px-8 py-0 bg-neutral-50/50 dark:bg-neutral-700/50 rounded-3xl shadow-lg/10">
+    <div
+      v-for="principle in principles"
+      :key="principle.id"
+      class="flex size-10 cursor-pointer bg-neutral-500/10 hover:bg-neutral-50 dark:bg-neutral-500/20 dark:hover:bg-neutral-900/10 justify-center items-center rounded-xl text-default/60 hover:text-primary transition-all duration-2000 hover:duration-200"
+    >
+      <UTooltip
+        :delay-duration="0"
+        :text="principle.title"
+        :content="{
+          align: 'center',
+          side: 'bottom',
+          sideOffset: 18,
+        }"
+      >
+        <UIcon
+          :name="'i-local-picon-' + principle.slug"
+          class="size-6 px-4"
+        />
+      </UTooltip>
+    </div>
   </div>
 </template>
 
@@ -48,7 +59,7 @@ const principles = [
     title: 'Causality',
     slug: 'causality',
     // subTitle: 'Cause and effect.',
-    // desc: 'Every cause has its effect, and every effect has its cause. Everything happens according to law. Chance is but a name for law not recognised. There are many planes of causation, but nothing escapes law. There is no free will to ignore law without consequence; that is the limit of free will. This is why natural law is also sometimes referred to as consequentialism.'
+    // desc: 'Every cause has its effect, and every effect has its cause. Everything happens according to law. Chance is but a name for law not recognized. There are many planes of causation, but nothing escapes law. There is no free will to ignore law without consequence; that is the limit of free will. This is why natural law is also sometimes referred to as consequentialism.'
   },
   { id: 7,
     title: 'Gender',

@@ -3,6 +3,12 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
+  eslint: {
+    config: {
+      stylistic: true,
+    }
+  },
+
   
   i18n: {
     defaultLocale: 'en',
@@ -60,7 +66,7 @@ export default defineNuxtConfig({
 
   // mcp: { enabled: false },
   
-  modules: ['@nuxt/ui', '@nuxtjs/i18n', '@nuxt/scripts'],
+  modules: ['@nuxt/ui', '@nuxtjs/i18n', '@nuxt/scripts', '@nuxt/eslint'],
   
   nitro: {
     preset: 'static',

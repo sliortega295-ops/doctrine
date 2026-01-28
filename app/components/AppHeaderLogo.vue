@@ -1,7 +1,6 @@
 <script setup lang="ts">
-const appConfig = useAppConfig()
+// const appConfig = useAppConfig()
 const localePath = useLocalePath()
-
 </script>
 
 <template>

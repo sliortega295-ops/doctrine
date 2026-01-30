@@ -158,10 +158,10 @@
         <UTooltip
           :open="open"
           :reference="reference"
-          :content="{ side: 'top', sideOffset: 16, updatePositionStrategy: 'always' }"
+          :content="{ side: 'top', sideOffset: 10, updatePositionStrategy: 'always' }"
         >
           <div
-            class="py-4 -mt-4 cursor-ew-resize"
+            class="py-4 -mt-4 cursor-none"
             @pointerenter="open = true"
             @pointerleave="open = false"
             @pointermove="(ev: PointerEvent) => {
@@ -173,21 +173,24 @@
           </div>
 
           <template #content>
-            <span class="font-semibold">The Truth</span>
+            <span class="uppercase">Truth</span>
           </template>
         </UTooltip>
       </div>
     </div>
     <div class="absolute -bottom-6 --bg-neutral-700 flex gap-2 w-full justify-start flex-wrap">
       <UButton
-        label="THE TRUTH"
+        :class="[frequency === '' ? 'ring-2 ring-primary/80' : '']"
+        label="Truth"
         color="primary"
         variant="subtle"
         size="xs"
+        class="uppercase"
         @click="frequency = ''"
       />
       <span class="hidden sm:block flex-1" />
       <UButton
+        :class="[frequency === 'lo' ? 'ring-2 ring-error/80' : '']"
         label="Incoherence"
         color="error"
         variant="subtle"
@@ -195,6 +198,7 @@
         @click="frequency = 'lo'"
       />
       <UButton
+        :class="[frequency === 'md' ? 'ring-2 ring-warning/80' : '']"
         label="Emergence"
         color="warning"
         variant="subtle"
@@ -202,6 +206,7 @@
         @click="frequency = 'md'"
       />
       <UButton
+        :class="[frequency === 'hi' ? 'ring-2 ring-info/80' : '']"
         label="Harmony"
         color="info"
         variant="subtle"
@@ -209,6 +214,7 @@
         @click="frequency = 'hi'"
       />
       <UButton
+        :class="[frequency === 'su' ? 'ring-2 ring-success/80' : '']"
         label="Mastery"
         color="success"
         variant="subtle"
@@ -236,13 +242,13 @@ const reference = computed(() => ({
     } as DOMRect),
 }))
 
-const frequency = ref()
+const frequency = ref('lo')
 </script>
 
 <style lang="css" scoped>
 .frq svg {
   width: 100%;
-  stroke-width: 1;
+  stroke-width: 2;
 }
 
 /* lo */
@@ -255,7 +261,7 @@ const frequency = ref()
 
 .path__lo {
   stroke-dasharray: 1208;
-  animation: move__lo 6s linear infinite;
+  animation: move__lo 9s linear infinite;
 }
 
 @keyframes move__lo {
@@ -277,7 +283,7 @@ const frequency = ref()
 
 .path__md {
   stroke-dasharray: 1644;
-  animation: move__md 6s linear infinite;
+  animation: move__md 9s linear infinite;
 }
 
 @keyframes move__md {
@@ -299,7 +305,7 @@ const frequency = ref()
 
 .path__hi {
   stroke-dasharray: 2792;
-  animation: move__hi 6s linear infinite;
+  animation: move__hi 9s linear infinite;
 }
 
 @keyframes move__hi {
@@ -320,7 +326,7 @@ const frequency = ref()
 }
 .path__su {
   stroke-dasharray: 4988;
-  animation: move__su 6s linear infinite;
+  animation: move__su 9s linear infinite;
 }
 
 @keyframes move__su {

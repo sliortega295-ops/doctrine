@@ -1,15 +1,13 @@
 <template>
   <div
     class="
-      w-full sm:w-[80cqw]
-      flex
-      items-center
-      justify-between
+    flex
+    justify-center
+    items-center
+      w-80 md:w-xl
       mx-auto
-      h-18 md:h-24
-      px-[5cqw]
-      my-12
-      rounded-2xl md:rounded-3xl
+      my-12 md:my-24
+      rounded-3xl
       shadow-md/10
       border
       border-default/40
@@ -18,26 +16,37 @@
       dark:bg-neutral-700/50
     "
   >
-    <UTooltip
-      v-for="principle in principles"
-      :key="principle.id"
-      :delay-duration="0"
-      :text="principle.title"
-      :content="{
-        align: 'center',
-        side: 'bottom',
-        sideOffset: 18,
-      }"
+    <div
+      class="
+        w-72 md:w-lg
+        h-40 md:h-24
+        mx-auto
+        grid grid-col grid-cols-4 md:grid-cols-8
+        place-items-center
+        gap-6
+        px-3
+        py-8 md:py-0
+      "
     >
-      <div
-        class="
+      <UTooltip
+        v-for="principle in principles"
+        :key="principle.id"
+        :delay-duration="0"
+        :text="principle.title"
+        :content="{
+          align: 'center',
+          side: 'top',
+          sideOffset: 12,
+        }"
+      >
+        <div
+          class="
         flex
-        size-8 sm:size-9 md:size-10
-        p-1.5 sm:p-2
+        size-9 md:size-10
         cursor-pointer
         justify-center
         items-center
-        rounded-lg md:rounded-xl
+        rounded-xl
         transition-all
         --duration-2000
         text-default
@@ -48,13 +57,14 @@
         hover:bg-neutral-200/50
         hover:duration-200
       "
-      >
-        <UIcon
-          :name="'i-local-picon-' + principle.slug"
-          class="size-4 sm:size-5 md:size-6"
-        />
-      </div>
-    </UTooltip>
+        >
+          <UIcon
+            :name="'i-local-picon-' + principle.slug"
+            class="size-5 md:size-6"
+          />
+        </div>
+      </UTooltip>
+    </div>
   </div>
 </template>
 

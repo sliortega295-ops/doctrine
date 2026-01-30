@@ -82,6 +82,14 @@ export default defineNuxtConfig({
 
   ssr: true,
 
+  // ui: {
+  //   theme: {
+  //     colors: [
+  //       'tertiary',
+  //     ]
+  //   }
+  // }
+
   // vite: {
   //   build: {
   //     rollupOptions: {

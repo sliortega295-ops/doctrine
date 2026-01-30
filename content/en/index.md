@@ -4,6 +4,9 @@ seo:
   description: The complete, structured, and immutable body of Natural Law knowledge. Learn, translate, and contribute to the source code of sovereignty.
 ---
 
+::hero-background
+::
+
 ::u-page-hero
 #title
 The [Doctrine]{.text-primary} is Open.
@@ -40,7 +43,7 @@ The complete, structured, and immutable body of Natural Law knowledge. Learn, tr
   to: https://github.com/nuxt-content/docus/releases/tag/v5.0.0
   variant: outline
   ---
-  First Edition →
+  Full Edition →
   :::
 ::
 
@@ -126,8 +129,8 @@ The complete, structured, and immutable body of Natural Law knowledge. Learn, tr
       height: 195
       width: 403
       alt: Internationalization illustration
-      class: w-fit mx-auto my-8
-      dark: /landing/dark/i18n.svg
+      class: w-fit mx-auto my-8 opacity-60
+      dark: /landing/dark/i18nn.svg
       light: /landing/light/i18n.svg
       ---
       :::::
@@ -244,6 +247,31 @@ The complete, structured, and immutable body of Natural Law knowledge. Learn, tr
 
     #description
     The Doctrine uses annotated components to highlight key teachings. These are not mere stylistic notes but integrated signposts for **Objective Truth**, **Practical Applications**, **Critical Misconceptions**, and **Immutable Consequences**.
+    ::::
+
+    ::::u-page-card
+    ---
+    spotlight: true
+    class: col-span-2 lg:col-span-1 flex
+    ---
+    ::u-icon
+    ---
+    name: i-local-tfm
+    class: w-36 h-36 mx-auto my-6
+    ---
+    ::
+
+    ::app-social
+    ::
+
+    #title
+    Join The [Collective](https://thefreemavens.org/)
+
+    #description
+    The work of sovereignty is not done in isolation. **The Freemavens Collective** is the active community where theory meets practice. This is where Mavens connect to discuss the Doctrine, collaborate on translations, support each other's application of Natural Law, and coordinate the practical work of the Great Work. It's a network of sovereign individuals choosing to build together.
+
+    #footer
+    Join the conversation that matters →
     ::::
 
     <!-- ::::u-page-card

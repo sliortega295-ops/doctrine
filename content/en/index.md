@@ -79,7 +79,7 @@ The complete, structured, and immutable body of Natural Law knowledge. Learn, tr
     ::::u-page-card
     ---
     spotlight: true
-    class: col-span-2 @container
+    class: col-span-2
     ---
     :::::app-principles
     :::::
@@ -136,10 +136,10 @@ The complete, structured, and immutable body of Natural Law knowledge. Learn, tr
       :::::
 
     #title
-    [Internationalization]{.text-primary} support
+    True [De-Occultation]{.text-primary}
 
     #description
-    True de-occultation knows no borders. The Open Doctrine features built-in internationalization, enabling seamless translation and community-led localization. This ensures the immutable principles of Natural Law are accessible to sovereign seekers in every language.
+    **True de-occultation knows no borders.** The Open Doctrine features built-in internationalization, enabling seamless translation and community-led localization. This ensures the immutable principles of Natural Law are accessible to sovereign seekers in every language.
     ::::
 
     <!-- COLOR MODE -->
@@ -257,12 +257,12 @@ The complete, structured, and immutable body of Natural Law knowledge. Learn, tr
     ::u-icon
     ---
     name: i-local-tfm
-    class: w-36 h-36 mx-auto my-6
+    class: w-24 h-24 mx-auto my-6
     ---
     ::
-
     ::app-social
     ::
+
 
     #title
     Join The [Collective](https://thefreemavens.org/)

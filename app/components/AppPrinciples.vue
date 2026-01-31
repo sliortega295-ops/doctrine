@@ -4,7 +4,7 @@
     flex
     justify-center
     items-center
-      w-80 md:w-xl
+      w-3/4 sm:w-1/2 md:w-xl max-w-full
       mx-auto
       my-12 md:my-24
       rounded-3xl
@@ -18,14 +18,14 @@
   >
     <div
       class="
-        w-72 md:w-lg
-        h-40 md:h-24
+        w-7/8 sm:w-5/6 md:w-lg
+        h-auto md:h-24
         mx-auto
         grid grid-col grid-cols-4 md:grid-cols-8
         place-items-center
-        gap-6
+        gap-4 md:gap-6
         px-3
-        py-8 md:py-0
+        py-6 md:py-0
       "
     >
       <UTooltip
@@ -42,7 +42,7 @@
         <div
           class="
         flex
-        size-9 md:size-10
+        size-8 md:size-10
         cursor-pointer
         justify-center
         items-center

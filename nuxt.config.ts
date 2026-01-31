@@ -31,12 +31,16 @@ export default defineNuxtConfig({
   },
 
   icon: {
-    provider: 'iconify',
+    // provider: 'iconify',
     customCollections: [{
       prefix: 'local',
       dir: './app/assets/icons'
     }]
   },
+
+  // image: {
+  //   provider: 'ipxStatic'
+  // },
 
   llms: {
     domain: 'https://doctrine.thefreemavens.org/',
@@ -77,6 +81,12 @@ export default defineNuxtConfig({
       ],
       crawlLinks: true,
       autoSubfolderIndex: false
+    }
+  },
+  // Docus sitemap | Source: https://docus.dev/en/concepts/configuration#site-url
+  runtimeConfig: {
+    public: {
+      siteUrl: 'https://discord.thefreemavens.org'
     }
   },
 

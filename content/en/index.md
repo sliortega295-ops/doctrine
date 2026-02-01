@@ -8,6 +8,10 @@ seo:
 ::
 
 ::u-page-hero
+---
+ui:
+  container: py-12 sm:py-18 md:py-32 lg:py-40
+---
 #title
 The [Doctrine]{.text-primary} is Open.
 
@@ -17,10 +21,11 @@ The complete, structured, and immutable body of Natural Law knowledge. Learn, tr
 #links
   :::u-button
   ---
-  color: neutral
-  size: xl
+  color: primary
+  size: lg
   to: en/getting-started/introduction
   icon: i-local-book-open-text
+  variant: solid
   ---
   Explore Knowledge Base
   :::
@@ -29,9 +34,9 @@ The complete, structured, and immutable body of Natural Law knowledge. Learn, tr
   ---
   color: neutral
   icon: simple-icons-github
-  size: xl
+  size: lg
   to: https://github.com/thefreemavens/doctrine
-  variant: outline
+  variant: subtle
   ---
   Star on GitHub
   :::
@@ -39,11 +44,11 @@ The complete, structured, and immutable body of Natural Law knowledge. Learn, tr
 #headline
   :::u-button
   ---
-  size: sm
+  size: xs
   to: /en/natural-law/summary
   variant: outline
   ---
-  Full Edition →
+  Master Edition →
   :::
 ::
 
@@ -112,6 +117,27 @@ The complete, structured, and immutable body of Natural Law knowledge. Learn, tr
     Truth emits a constant frequency. Your consciousness is the variable signal. The work of **Freemavenry** is to architect your inner state, moving its vibration from chaotic Incoherence into sustained, sovereign Mastery.
     ::::
 
+    <!-- COLOR MODE -->
+    <!-- COLOR MODE -->
+    <!-- COLOR MODE -->
+    <!-- COLOR MODE -->
+    <!-- COLOR MODE -->
+
+    ::::u-page-card
+    ---
+    spotlight: true
+    class: col-span-2 lg:col-span-1
+    ---
+    ::color-mode-switch
+    ::
+
+    #title
+    Navigate the [Polarity](/en/natural-law/principles-of-natural-law#polarity)
+
+    #description
+    Switch between light and dark modes. This tool embodies the Principle of Polarity - opposites are identical in nature, differing only in degree. Choose the mode that best serves your focus and clarity as you engage with the Doctrine.
+    ::::
+
     <!-- International -->
     <!-- International -->
     <!-- International -->
@@ -142,58 +168,6 @@ The complete, structured, and immutable body of Natural Law knowledge. Learn, tr
     **True de-occultation knows no borders.** The Open Doctrine features built-in internationalization, enabling seamless translation and community-led localization. This ensures the immutable principles of Natural Law are accessible to sovereign seekers in every language.
     ::::
 
-    <!-- COLOR MODE -->
-    <!-- COLOR MODE -->
-    <!-- COLOR MODE -->
-    <!-- COLOR MODE -->
-    <!-- COLOR MODE -->
-
-    ::::u-page-card
-    ---
-    spotlight: true
-    class: col-span-2 lg:col-span-1
-    ---
-    ::color-mode-switch
-    ::
-
-    #title
-    Navigate the [Polarity](/en/natural-law/principles-of-natural-law#polarity)
-
-    #description
-    Switch between light and dark modes. This tool embodies the Principle of Polarity - opposites are identical in nature, differing only in degree. Choose the mode that best serves your focus and clarity as you engage with the Doctrine.
-    ::::
-    
-    <!-- COMMAND MENU -->
-    <!-- COMMAND MENU -->
-    <!-- COMMAND MENU -->
-    <!-- COMMAND MENU -->
-    <!-- COMMAND MENU -->
-
-    ::::u-page-card
-    ---
-    spotlight: true
-    class: col-span-2
-    ---
-      :::::u-color-mode-image
-      ---
-      height: 554
-      width: 859
-      alt: Built-in navigation and full-text search
-      class: rounded-lg
-      dark: /landing/dark/command-menu.webp
-      format: webp
-      light: /landing/light/command-menu.webp
-      loading: lazy
-      ---
-      :::::
-
-    #title
-    Access the [Knowledge Base]{.text-primary}
-
-    #description
-    This is your interface to the Open Doctrine. Search every principle instantly or follow the structured path from Natural Law Principles to True Sovereignty.
-    ::::
-    
     ::::u-page-card
     ---
     spotlight: true
@@ -249,6 +223,37 @@ The complete, structured, and immutable body of Natural Law knowledge. Learn, tr
     The Doctrine uses annotated components to highlight key teachings. These are not mere stylistic notes but integrated signposts for **Objective Truth**, **Practical Applications**, **Critical Misconceptions**, and **Immutable Consequences**.
     ::::
 
+    <!-- COMMAND MENU -->
+    <!-- COMMAND MENU -->
+    <!-- COMMAND MENU -->
+    <!-- COMMAND MENU -->
+    <!-- COMMAND MENU -->
+
+    ::::u-page-card
+    ---
+    spotlight: true
+    class: col-span-2
+    ---
+      :::::u-color-mode-image
+      ---
+      height: 554
+      width: 859
+      alt: Built-in navigation and full-text search
+      class: rounded-lg
+      dark: /landing/dark/command-menu.webp
+      format: webp
+      light: /landing/light/command-menu.webp
+      loading: lazy
+      ---
+      :::::
+
+    #title
+    Access the [Knowledge Base]{.text-primary}
+
+    #description
+    This is your interface to the Open Doctrine. Search every principle instantly or follow the structured path from Natural Law Principles to True Sovereignty.
+    ::::
+    
     ::::u-page-card
     ---
     spotlight: true
@@ -256,10 +261,11 @@ The complete, structured, and immutable body of Natural Law knowledge. Learn, tr
     ---
     ::u-icon
     ---
-    name: i-local-tfm
-    class: w-24 h-24 mx-auto my-6
+    name: i-local-m-tetra
+    class: w-36 h-36 mx-auto my-6 ring-2 text-primary
     ---
     ::
+
     ::app-social
     ::
 
@@ -271,7 +277,7 @@ The complete, structured, and immutable body of Natural Law knowledge. Learn, tr
     The work of sovereignty is not done in isolation. **The Freemavens Collective** is the active community where theory meets practice. This is where Mavens connect to discuss the Doctrine, collaborate on translations, support each other's application of Natural Law, and coordinate the practical work of the Great Work. It's a network of sovereign individuals choosing to build together.
 
     #footer
-    Join the conversation that matters →
+    Help shape what comes next →
     ::::
 
     <!-- ::::u-page-card

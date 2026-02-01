@@ -88,13 +88,14 @@
   /* --ui-warning: var(--ui-color-warning-500); */
   /* --ui-error: var(--ui-color-error-500); */
 
-  --ui-elevated: var(--ui-color-neutral-700);
-  --ui-accented: var(--ui-color-neutral-600);
+  /* --ui-elevated: var(--ui-color-neutral-700);
+  --ui-accented: var(--ui-color-neutral-600); */
 
   --ui-bg: var(--ui-color-neutral-800);
   --ui-bg-muted: var(--ui-color-neutral-950);
   --ui-bg-elevated: var(--ui-color-neutral-700);
   --ui-bg-accented: var(--ui-color-neutral-600);
+  --ui-border-accented: var(--ui-color-neutral-600);
   /* --ui-bg-inverted: white; */
 
   /* --ui-text-dimmed: var(--ui-color-neutral-500); */

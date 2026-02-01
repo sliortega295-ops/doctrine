@@ -51,12 +51,12 @@ const defaultPoster = '../../img/content/yt-poster.png'
 
 <template>
   <div>
-    <div class="flex items-center justify-center">
+    <div class="flex items-center justify-center mt-8">
       <ScriptYouTubePlayer
         :ref="setVideoRef"
         :video-id="id"
         :player-vars="{
-          start: time
+          start: time,
         }"
         @ready="isLoaded = true"
         @state-change="stateChange"

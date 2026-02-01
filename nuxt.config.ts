@@ -38,9 +38,9 @@ export default defineNuxtConfig({
     }]
   },
 
-  // image: {
-  //   provider: 'ipxStatic'
-  // },
+  image: {
+    provider: 'none'
+  },
 
   llms: {
     domain: 'https://doctrine.thefreemavens.org/',

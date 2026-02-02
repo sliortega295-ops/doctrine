@@ -12,3 +12,9 @@ defineProps<{
     <slot />
   </div>
 </template>
+
+<!-- <style lang="postcss">
+.grid img {
+  @apply ring-2 ring-primary
+}
+</style> -->

@@ -65,6 +65,11 @@ export default defineAppConfig({
         base: 'bg-neutral-200/80 hover:bg-neutral-300/60 dark:bg-neutral-600/50 dark:hover:bg-neutral-600/80',
       },
     },
+    // prose: {
+    //   p: {
+    //     base: 'my-5 leading-20 text-pretty text-base'
+    //   }
+    // }
     // pageCard: {
     //   slots: {
     //     body: 'flex-0',

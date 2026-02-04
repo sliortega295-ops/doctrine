@@ -31,7 +31,7 @@ export default defineNuxtConfig({
   },
 
   icon: {
-    provider: 'iconify',
+    provider: 'iconify', // 'none'
     customCollections: [{
       prefix: 'local',
       dir: './app/assets/icons'

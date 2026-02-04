@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const props = defineProps<{
-  id: string
+  id: string | number
 }>()
 
 const formattedId = String(props.id).padStart(3, '0')

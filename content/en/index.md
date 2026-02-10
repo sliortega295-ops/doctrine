@@ -2,6 +2,9 @@
 seo:
   title: The Doctrine is Open.
   description: The complete, structured, and immutable body of Natural Law knowledge. Learn, translate, and contribute to the source code of sovereignty.
+head:
+  bodyAttrs:
+    class: 'landing-page-class'
 ---
 
 ::hero-background
@@ -271,7 +274,7 @@ The complete, structured, and immutable body of Natural Law knowledge. Learn, tr
 
 
     #title
-    Join The [Collective](https://thefreemavens.org/)
+    Join the [Collective](https://thefreemavens.org/)
 
     #description
     The work of sovereignty is not done in isolation. **The Freemavens Collective** is the active community where theory meets practice. This is where Mavens connect to discuss the Doctrine, collaborate on translations, support each other's application of Natural Law, and coordinate the practical work of the Great Work. It's a network of sovereign individuals choosing to build together.

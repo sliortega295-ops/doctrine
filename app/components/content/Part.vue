@@ -38,11 +38,11 @@ const fileUrl = `/img/content/natural-law/p1/${formattedId}.webp`
     </div>
 
     <!-- Slide -->
-    <div>
+    <div class="bg-primary-500 rounded-lg">
       <img
         :src="fileUrl"
         :alt="`Slide ${props.id}`"
-        class="w-full rounded-lg"
+        class="w-full rounded-lg saturate-0 opacity-80 dark:opacity-90"
       >
     </div>
 

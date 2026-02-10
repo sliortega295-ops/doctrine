@@ -1,6 +1,6 @@
 {
-  "name": "The Freemavens",
-  "short_name": "TFM",
+  "name": "MyWebSite",
+  "short_name": "MySite",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",

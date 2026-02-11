@@ -1,10 +1,10 @@
 ---
+head:
+  bodyAttrs:
+    class: 'my-custom-landing-page'
 seo:
   title: The Doctrine is Open.
   description: The complete, structured, and immutable body of Natural Law knowledge. Learn, translate, and contribute to the source code of sovereignty.
-head:
-  bodyAttrs:
-    class: 'landing-page-class'
 ---
 
 ::hero-background

@@ -4,7 +4,7 @@ const props = defineProps<{
 }>()
 
 const formattedId = String(props.id).padStart(3, '0')
-const fileUrl = `/img/content/natural-law/p1/${formattedId}.webp`
+const fileUrl = `/img/content/natural-law/slides/${formattedId}.webp`
 </script>
 
 <template>
